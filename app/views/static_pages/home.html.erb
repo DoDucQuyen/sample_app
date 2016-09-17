@@ -1,0 +1,17 @@
+<% provide(:title, "Home") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><% yield(:title) %> | Ruby on Rails Tutorial App</title>
+  </head>
+  <body>
+    <div class = "text-center">
+    <h1>Welcom to the Sample App</h1>
+    <p>
+      This is the home page for the Ruby on Rails Tutorial sample application.
+    </p>
+      <div><%= image_tag("solitude_photography5.jpg", :alt => "not_found") %></div>
+      <button type="button" class="btn btn-default navbar-btn">Sign up now!</button>
+    </div>
+  </body>
+</html>
