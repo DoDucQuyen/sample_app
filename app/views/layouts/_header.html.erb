@@ -1,10 +1,12 @@
-<header class = "nav navbar-default navbar-inverse " >
-  <div class = "container ">
-    <div class="navbar-brand"><%= link_to "Sample App", '#', id: "logo" %></div>
-    <nav class = "nav navbar-nav pull-right">
-        <li><%= link_to "Home", '#'  %></li>
-        <li><%= link_to "Help", '#'  %></li>
-        <li><%= link_to "Login", '#'  %></li>
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to "sample app", '#', id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Home",   '#' %></li>
+        <li><%= link_to "Help",   '#' %></li>
+        <li><%= link_to "Log in", '#' %></li>
+      </ul>
     </nav>
   </div>
 </header>

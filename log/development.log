@@ -38715,3 +38715,1525 @@ Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323
 
 
 Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-17 19:12:51 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-17 19:37:23 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (200.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 287ms (Views: 266.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-17 19:37:33 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 12:57:55 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (956.4ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 1663ms (Views: 1639.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-09-18 12:58:06 +0700
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (65.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (288.1ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (67.1ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (89.2ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2016-09-18 12:58:12 +0700
+
+ActionController::RoutingError (No route matches [GET] "/help"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 12:59:09 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /var/lib/gems/2.3.0/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (1.3ms)
+Completed 200 OK in 30ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-09-18 12:59:14 +0700
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 12:59:27 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /var/lib/gems/2.3.0/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 12:59:33 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /var/lib/gems/2.3.0/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-09-18 12:59:40 +0700
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.5ms)
+
+
+Started GET "/static_pages/home/" for 127.0.0.1 at 2016-09-18 12:59:49 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 39ms (Views: 38.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 12:59:54 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /var/lib/gems/2.3.0/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home/" for 127.0.0.1 at 2016-09-18 13:00:06 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 13:00:07 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 13:00:07 +0700
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2016-09-18 13:00:07 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 13:00:07 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 13:00:07 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 13:00:07 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 13:00:07 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 13:00:07 +0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2016-09-18 13:00:07 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 13:00:07 +0700
+
+
+Started GET "/static_pages/help/" for 127.0.0.1 at 2016-09-18 13:00:16 +0700
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 36ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 13:19:35 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (291.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 377ms (Views: 368.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5e3967a209081427eca20f0318eaeeb9e0f5ebecf1d6f827780171dcdd660820.css?body=1" for 127.0.0.1 at 2016-09-18 13:19:35 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 13:19:35 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 13:20:12 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 13:20:12 +0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 37ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 26ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 13:20:13 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 13:20:14 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 13:20:14 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 13:20:14 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 13:20:14 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 13:20:14 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 13:20:14 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 13:20:14 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 13:20:14 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 36ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 13:20:14 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 13:20:14 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 13:20:14 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 13:20:14 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 13:20:14 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 13:20:19 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 13:24:18 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 13:24:18 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 13:24:18 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 13:24:18 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 13:24:18 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 13:24:18 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 13:24:18 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 13:24:18 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 13:24:18 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 13:24:18 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 13:24:18 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 13:29:03 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 27ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:30:21 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (361.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 450ms (Views: 443.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-b8621800fd35916b51f130862954f3bdccf94a13d1f2a92a1c1e33653805d1c0.css?body=1" for 127.0.0.1 at 2016-09-18 14:30:22 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:31:25 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (1.6ms)
+Completed 200 OK in 54ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-b8621800fd35916b51f130862954f3bdccf94a13d1f2a92a1c1e33653805d1c0.css?body=1" for 127.0.0.1 at 2016-09-18 14:31:25 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 14:31:25 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 14:31:25 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 14:31:25 +0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 14:31:25 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 14:31:25 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 14:31:25 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 14:31:25 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 14:31:25 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 14:31:25 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 14:31:25 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:37:50 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-b8621800fd35916b51f130862954f3bdccf94a13d1f2a92a1c1e33653805d1c0.css?body=1" for 127.0.0.1 at 2016-09-18 14:37:50 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 14:37:50 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 14:37:50 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 14:37:50 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 14:37:50 +0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 14:37:50 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 14:37:50 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 14:37:50 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 14:37:50 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 14:37:50 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 14:37:50 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:42:22 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/ddq/Documents/Ruby/sample_app/app/assets/images
+  /home/ddq/Documents/Ruby/sample_app/app/assets/javascripts
+  /home/ddq/Documents/Ruby/sample_app/app/assets/stylesheets
+  /home/ddq/Documents/Ruby/sample_app/vendor/assets/javascripts
+  /home/ddq/Documents/Ruby/sample_app/vendor/assets/stylesheets
+  /var/lib/gems/2.3.0/gems/jquery-rails-4.2.1/vendor/assets/javascripts
+  /var/lib/gems/2.3.0/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /var/lib/gems/2.3.0/gems/turbolinks-source-5.0.0/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2346315867122033652_34570260'
+
+
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (70.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (84.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:42:23 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/ddq/Documents/Ruby/sample_app/app/assets/images
+  /home/ddq/Documents/Ruby/sample_app/app/assets/javascripts
+  /home/ddq/Documents/Ruby/sample_app/app/assets/stylesheets
+  /home/ddq/Documents/Ruby/sample_app/vendor/assets/javascripts
+  /home/ddq/Documents/Ruby/sample_app/vendor/assets/stylesheets
+  /var/lib/gems/2.3.0/gems/jquery-rails-4.2.1/vendor/assets/javascripts
+  /var/lib/gems/2.3.0/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /var/lib/gems/2.3.0/gems/turbolinks-source-5.0.0/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2346315867122033652_34570260'
+
+
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (26.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:42:49 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 1486ms (Views: 1485.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-18edfa283d2fc9c34ba0a68cf5e23abb62ef050e70df1b204b8cc248bbe52191.css?body=1" for 127.0.0.1 at 2016-09-18 14:42:50 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 14:42:50 +0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 14:42:50 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 14:42:50 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 14:42:50 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 14:42:50 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 14:42:50 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 14:42:50 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 14:42:50 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 14:42:50 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 14:42:50 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:43:52 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 802ms (Views: 800.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-962a70c849ff05b60afb216e013207cba80450635614173e2a9d32f751035c4c.css?body=1" for 127.0.0.1 at 2016-09-18 14:43:53 +0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 14:43:53 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 14:43:53 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 14:43:53 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 14:43:53 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 14:43:53 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 14:43:53 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 14:43:53 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 14:43:53 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 14:43:53 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 14:43:53 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:44:44 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 713ms (Views: 712.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-1b2ff2dfa95453aef171b1bf06ddbbe99946e9ac46505eb0ca5bc087b1975d64.css?body=1" for 127.0.0.1 at 2016-09-18 14:44:44 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 14:44:45 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 14:44:45 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 14:44:45 +0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 14:44:45 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 14:44:45 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 14:44:45 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 14:44:45 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 14:44:45 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 14:44:45 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 14:44:45 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:46:04 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 824ms (Views: 822.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-65326dd32d5d29ab11754e8f2646dee90d8570338e7831f61cdaad94c41b59ea.css?body=1" for 127.0.0.1 at 2016-09-18 14:46:05 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 14:46:05 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 14:46:05 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 14:46:05 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 14:46:05 +0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 14:46:05 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 14:46:05 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 14:46:05 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 14:46:05 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 14:46:05 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 14:46:05 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:47:54 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 706ms (Views: 705.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-be7b80991def8d9e2842703f37b9d55cf7b0323bb4c47c4d7c537b51b1483a46.css?body=1" for 127.0.0.1 at 2016-09-18 14:47:55 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 14:47:55 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 14:47:55 +0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 14:47:55 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 14:47:55 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 14:47:55 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 14:47:55 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 14:47:55 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 14:47:55 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 14:47:55 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 14:47:55 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:54:58 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 917ms (Views: 916.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-2c04cbc222f7997782631e4cf6e9e05c3e051bce51195732f220664858082abb.css?body=1" for 127.0.0.1 at 2016-09-18 14:54:59 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 14:54:59 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 14:54:59 +0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 14:54:59 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 14:54:59 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 14:54:59 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 14:54:59 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 14:54:59 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 14:54:59 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 14:54:59 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 14:54:59 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:55:06 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 739ms (Views: 738.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-2c04cbc222f7997782631e4cf6e9e05c3e051bce51195732f220664858082abb.css?body=1" for 127.0.0.1 at 2016-09-18 14:55:07 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 14:55:07 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 14:55:07 +0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 14:55:07 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 14:55:07 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 14:55:07 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 14:55:07 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 14:55:07 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 14:55:07 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 14:55:07 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 14:55:07 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:55:17 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 790ms (Views: 789.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-e8171989b1b1e572e19c8ed5d824815e8b8fd2cf8c3ba97d582faa1fde5ffc91.css?body=1" for 127.0.0.1 at 2016-09-18 14:55:18 +0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 14:55:18 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 14:55:18 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 14:55:18 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 14:55:18 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 14:55:18 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 14:55:18 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 14:55:18 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 14:55:18 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 14:55:18 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 14:55:18 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:56:49 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "  width=100%": expected "{", was ";"):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.scss:54
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2346315867122033652_34570260'
+
+
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (26.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:57:09 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 813ms (Views: 812.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-00f5afc0fbb2605e1abf8f13df7637ac228da27669d418c07f8d93f2ec6860d7.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:10 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:10 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:10 +0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:10 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:10 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:10 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:10 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:10 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:10 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:10 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 14:57:10 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:57:23 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 769ms (Views: 767.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-6c65b74741bb024d4b7126322ce57d156a0ba5b7b695609863038a0fe8b4d472.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:24 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:24 +0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:24 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:24 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:24 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:24 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:24 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:24 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:24 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:24 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 14:57:24 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:57:25 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 33ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-6c65b74741bb024d4b7126322ce57d156a0ba5b7b695609863038a0fe8b4d472.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:25 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:25 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:25 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:25 +0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:25 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:25 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:25 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:25 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:25 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:25 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 14:57:25 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:57:26 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 42ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-6c65b74741bb024d4b7126322ce57d156a0ba5b7b695609863038a0fe8b4d472.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:26 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:26 +0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:26 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:26 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:26 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:26 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:26 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:26 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:26 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:26 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 14:57:26 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:57:32 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-6c65b74741bb024d4b7126322ce57d156a0ba5b7b695609863038a0fe8b4d472.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:32 +0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:32 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:32 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:32 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:32 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:32 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:32 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:32 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:32 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:32 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 14:57:32 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:57:44 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 827ms (Views: 826.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-7ee2c1824515925eb73fc3a04d45abd249e34d13ee3b089b918aee6a48bdc4a7.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:45 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:45 +0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:45 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:45 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:45 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:45 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 14:57:45 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:45 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:45 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 14:57:45 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 14:57:45 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:58:30 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 701ms (Views: 700.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-6fd020d782b2c8b9bd5bd1225212c94d045803a535d11d0dc5a53395155fc414.css?body=1" for 127.0.0.1 at 2016-09-18 14:58:31 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 14:58:31 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 14:58:31 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 14:58:31 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 14:58:31 +0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 14:58:31 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 14:58:31 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 14:58:31 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 14:58:31 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 14:58:31 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 14:58:31 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:58:41 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 740ms (Views: 739.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-95c103b02d1cfa981a260f1fed3279cabdd3496f389a3f808a3f251f6dc9306c.css?body=1" for 127.0.0.1 at 2016-09-18 14:58:42 +0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 14:58:42 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 14:58:42 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 14:58:42 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 14:58:42 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 14:58:42 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 14:58:42 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 14:58:42 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 14:58:42 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 14:58:42 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 14:58:42 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 14:58:48 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 701ms (Views: 699.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-b51e7fa5f055dd4b9d3eb300fbb01095e14b6423b4e0ecb5c86f3cf203627245.css?body=1" for 127.0.0.1 at 2016-09-18 14:58:49 +0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2016-09-18 14:58:49 +0700
+
+
+Started GET "/assets/application.self-313fbc6b12c7684aea4284613cc1a536ff81def425b8f1779de645f9e8c8038e.css?body=1" for 127.0.0.1 at 2016-09-18 14:58:49 +0700
+
+
+Started GET "/assets/bootstrap.min.self-511807f34f490c5d04f397a2ad4fc4a9135fcb5300f3dd5cb88f1cf678357cf3.css?body=1" for 127.0.0.1 at 2016-09-18 14:58:49 +0700
+
+
+Started GET "/assets/bootstrap.min.self-504d59678f10d79a661b6cecdce5b8c1d5bfd98e860614584c0a40399552d61f.js?body=1" for 127.0.0.1 at 2016-09-18 14:58:49 +0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-09-18 14:58:49 +0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-09-18 14:58:49 +0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-09-18 14:58:49 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-18 14:58:49 +0700
+
+
+Started GET "/assets/application.self-58c37e8eff35960788ce76f229df7f7a2eecb8a0eb03df4f718c6b68947dedfa.js?body=1" for 127.0.0.1 at 2016-09-18 14:58:49 +0700
+
+
+Started GET "/assets/solitude_photography5-b53c23083022ad6ae680f7d2742109179b306bc5401ddc7f1d7c8990032f3d79.jpg" for 127.0.0.1 at 2016-09-18 14:58:49 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 15:01:30 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/ddq/Documents/Ruby/sample_app/app/assets/images
+  /home/ddq/Documents/Ruby/sample_app/app/assets/javascripts
+  /home/ddq/Documents/Ruby/sample_app/app/assets/stylesheets
+  /home/ddq/Documents/Ruby/sample_app/vendor/assets/javascripts
+  /home/ddq/Documents/Ruby/sample_app/vendor/assets/stylesheets
+  /var/lib/gems/2.3.0/gems/jquery-rails-4.2.1/vendor/assets/javascripts
+  /var/lib/gems/2.3.0/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /var/lib/gems/2.3.0/gems/turbolinks-source-5.0.0/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2346315867122033652_34570260'
+
+
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (14.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (26.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 15:01:32 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/ddq/Documents/Ruby/sample_app/app/assets/images
+  /home/ddq/Documents/Ruby/sample_app/app/assets/javascripts
+  /home/ddq/Documents/Ruby/sample_app/app/assets/stylesheets
+  /home/ddq/Documents/Ruby/sample_app/vendor/assets/javascripts
+  /home/ddq/Documents/Ruby/sample_app/vendor/assets/stylesheets
+  /var/lib/gems/2.3.0/gems/jquery-rails-4.2.1/vendor/assets/javascripts
+  /var/lib/gems/2.3.0/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /var/lib/gems/2.3.0/gems/turbolinks-source-5.0.0/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2346315867122033652_34570260'
+
+
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (6.2ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 15:02:50 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/ddq/Documents/Ruby/sample_app/app/assets/images
+  /home/ddq/Documents/Ruby/sample_app/app/assets/javascripts
+  /home/ddq/Documents/Ruby/sample_app/app/assets/stylesheets
+  /home/ddq/Documents/Ruby/sample_app/vendor/assets/javascripts
+  /home/ddq/Documents/Ruby/sample_app/vendor/assets/stylesheets
+  /var/lib/gems/2.3.0/gems/jquery-rails-4.2.1/vendor/assets/javascripts
+  /var/lib/gems/2.3.0/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /var/lib/gems/2.3.0/gems/turbolinks-source-5.0.0/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2346315867122033652_34570260'
+
+
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (14.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (27.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-18 15:03:34 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1287.8ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 1395ms (Views: 1387.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-b324b8d9a3e52436da4a82263b365c3f84e1d1ee0ecb0f986115084d1b5b8199.css?body=1" for 127.0.0.1 at 2016-09-18 15:03:35 +0700
