@@ -1,0 +1,62 @@
+  [1m[36m (84.9ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (73.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (91.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (67.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20161009181421')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "users" ("name", "email", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-10-09 19:22:14', '2016-10-09 19:22:14', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-10-09 19:22:14', '2016-10-09 19:22:14', 298486374)[0m
+  [1m[35m (79.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------
+UserTest: test_should_be_valid
+------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "users" ("name", "email", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-10-09 19:23:10', '2016-10-09 19:23:10', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-10-09 19:23:10', '2016-10-09 19:23:10', 298486374)[0m
+  [1m[35m (61.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------
+UserTest: test_name_should_be_present
+-------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------
+UserTest: test_should_be_valid
+------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "users" ("name", "email", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-10-09 19:24:01', '2016-10-09 19:24:01', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-10-09 19:24:01', '2016-10-09 19:24:01', 298486374)[0m
+  [1m[35m (55.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------
+UserTest: test_name_should_be_present
+-------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------
+UserTest: test_should_be_valid
+------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (72.2ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "password_digest" varchar) [0m
+  [1m[35m (78.2ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (90.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (66.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20161009193422')
+  [1m[36m (66.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20161009181421')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
